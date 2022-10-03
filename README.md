@@ -8,11 +8,11 @@
  
  1° Projeto/Variáveis booleanas: 
  
- Um programa que compara e corrige a exibição de váriaveis booleanas. (Arquivos do projeto [aqui]())
+ Um programa que compara e corrige a exibição de váriaveis booleanas. (Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_2))
 
 2° Projeto/Variáveis condicionais:
 
-Pequeno projeto que captura informações do usuário, e exibe uma mensagem personalizada de acordo que as informações fornecidas. (Arquivos do projeto [aqui]())
+Pequeno projeto que captura informações do usuário, e exibe uma mensagem personalizada de acordo que as informações fornecidas. (Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_2))
 
 <h3>✔️ Tecnologias utilizadas:</h3>
 
