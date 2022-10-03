@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(600.85deg, #EFFBF2 27.26%, #c7f4cf 96.03%);   
+}
+
+.container {
+    width: 450px;
+    background: #49e96b;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+    margin: 0 auto;
+    padding: 45px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    padding:25px 0 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 10px 0;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px 5px 10px 5px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao {
+    margin-top: 15px;
+    width:100px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(59, 81, 248); 
+    color:#FFFFFF;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+    transition: 400ms;
+}
+
+.botao:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    background:#ee9a1d;
+    box-shadow: 6px 6px 6px #0E1D2F;
+}
+
+.resultado {
+    margin-bottom: 15px;
+    padding: 10px 5px 10px 5px; 
+    background: #0E1D2F;
+    border-radius: 5px;
+}
+
+.texto-resposta {
+    color: #FFFFFF;
+}
+
+.pergunta-extra {
+    display:none; 
+    color: #FFFFFF;
+    margin-top:20px;
+}
+
+.texto{
+    font-weight: bold;
+}
+
+#botao1, #botao2 {
+    width:50px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#resposta {
+    display: none;
+    background: #0E1D2F;
+    margin-top: 20px;
+    color: #FFFFFF;
+    padding: 10px 5px 10px;
+    border-radius: 5px;
+}
+
+

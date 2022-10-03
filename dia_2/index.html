@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variaveis</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Para nós te conhecermos melhor:</h1>
+    <div class="container">
+        
+        <form>
+
+            <label for="nome" class="label">Digite seu primeiro e segundo nome:</label>
+            <input type="text" id="nome" placeholder="Digite aqui seu nome">
+
+            <label for="idade" class="label">Digite sua idade:</label>
+            <input type="number" id="idade"  placeholder="Apenas números">
+
+            <label for="linguagem" class="label">Digite a linguagem de programação que está aprendendo:</label>
+            <input type="text" id="linguagem"  placeholder="Apenas o nome da linguagem">
+
+            <button  class="botao" id="botao-exibir" type="button" onclick="exibir()">Exibir</button>
+
+        </form>
+
+        <div class="pergunta-extra">
+
+            <div class="resultado"></div>
+
+            <div id="pergunta-texto"></div>
+
+            <button  class="botao" id="botao1" type="button" onclick="mostra1()">1</button>
+            <button  class="botao" id="botao2" type="button" onclick="mostra2()">2</button>
+
+            <div id="resposta"></div>
+
+        </div>
+    </div>
+    
+    <script src="variaveis.js"></script>
+
+</body>
+</html>
