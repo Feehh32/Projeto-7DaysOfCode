@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("background.jpg");
+}
+
+h1 {
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(380.85deg, #7909c49c 37.26%, #884cc4c9 96.03%);
+    border-radius: 25px;
+    color:#FFFFFF;
+    margin: 64px;
+    padding:64px;
+    align-items: center;
+    box-shadow:0 5px 0 #36025d;
+}
+
+p {
+  font-size: 20px; 
+  margin-bottom: 15px; 
+}
+
+input {
+    padding: 5px 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.botao { 
+    border-radius: 5px;
+    background: #0ec53f;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;   
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.pergunta-frontEnd {
+    display:none;
+}
+
+.pergunta-backEnd {
+    display:none;
+}
+
+.especializacao-front {
+    display:none;
+}
+
+.especializacao-back {
+    display:none;
+}
+
+.adicionais {
+    display:none;
+}
+
+.lista {
+    display:none;
+    text-align: center;
+    flex-direction: column;
+    background:#12011e;
+    padding: 40px;
+    border: 5px solid #FFFFFF;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px #12011e;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+.escolha {
+    list-style-type: circle;
+}

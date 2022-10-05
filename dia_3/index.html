@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1>Escolha seus estudos</h1>
+    <div class="container">  
+        <div class="pergunta-area">
+            <p>Por quais áreas da programação você planeja seguir? (1)Front-End ou (2)Back-end.</p>
+            <input type="number" id="input-front-back" placeholder="Escolha entre 1 e 2">
+            <button class="botao" id="front-back" type="button" onclick="escolherArea(escFront,escBack)">Escolher</button>
+        </div>
+
+        <div class="pergunta-frontEnd">                    
+            <p>Qual tecnologia você quer aprender no Front-end? (1)Vue ou (2)React.</p>
+            <input type="number" id="input-vue-react" placeholder="Escolha entre 1 e 2">
+            <button class="botao" id="vue-react" type="button" onclick="escolheTecFront(escVue,escReact)">Escolher</button>
+        </div>
+
+        <div class="pergunta-backEnd">
+            <p>Qual tecnologia você quer aprender no Back-end? (1)C# ou (2)Java.</p>
+            <input type="number" id="input-java-c" placeholder="Escolha entre 1 e 2">
+            <button class="botao" id="java-c" type="button" onclick="escolheTecBack(escC,escJava)">Escolher</button>
+        </div>
+
+        <div class="especializacao-front">
+            <p>Você deseja? (1)especializacao em Front-end ou (2)Especialização em fullStack?</p>
+            <input type="number" id="input-espec-front" placeholder="Escolha entre 1 e 2">
+            <button class="botao" id="espec-front" type="button" onclick="escolheEspecFront(espcFrontEnd,fullstackFront)">Escolher</button>
+                
+        </div>
+
+        <div class="especializacao-back">
+                <p>Você deseja? (1)especializacao Back-end ou (2)Especializacao em  fullStack?</p>
+                <input type="number" id="input-espec-back" placeholder="Escolha entre 1 e 2">
+                <button class="botao" id="espec-back" type="button" onclick="escolheEspecBack(espcFrontBack,fullstackBack)">Escolher</button>
+        </div>
+
+        <div class="adicionais">
+            <p>Quais outras tecnologias você deseja aprender?</p>
+            <input type="text" id="input-adicionar" onfocus="this.value=''" placeholder="digite sua próxima tecnologia">
+            <button class="botao" id="adicionar" type="button" onclick="adicionar()">Adicionar</button>
+        </div>
+        <div class="lista">
+            <h2>Sua Wishlist dev</h2>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
