@@ -14,9 +14,13 @@
 
 Pequeno projeto que captura informações do usuário, e exibe uma mensagem personalizada de acordo que as informações fornecidas. (Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_2))
 
-3°Projeto/Condicionais e loopings:
+3° Projeto/Condicionais e loopings:
 
 Um programa que pergunta ao usuários quais áreas da programação ele gostaria de seguir, decidindo entre Front-end e Back-end por exemplo. Após a exibição das escolhas feitas pelo usuário, ainda lhe é permitido adicionar opções extras através de um input. (Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_3)
+
+4° Projeto/funções de números aleatórios:
+
+Um jogo onde o programa cria um  número aleatório e oferece ao usuário três chances para acertá-lo. Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_4)
 
 <h3>✔️ Tecnologias utilizadas:</h3>
 
