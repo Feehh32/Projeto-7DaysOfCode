@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O adivinho </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img class="titulo" src="titulo.png" alt="titulo">
+    <div class="principal">  
+        <p class="texto-principal">Olá! acredito que você assim como eu você adore um mistério. 
+        Bom eu tenho um pequeno aqui, algo para testar sua sede por pequenas descobertas.
+        Eu criei um número e ele está entre o 1 e o 15, e tudo que você tem a fazer é adivinha-lo. Bem simples não acha,
+        ainda sim te conhecendo como eu conheço, você não foge de um bom desafio certo ;). Você tem três chances, aproveite-as!!!</p>
+        <button type="button" class="botao" id="jogar">Jogar</button>
+    </div>
+
+    <div class="caixa-de-chute">
+        <label for="chute" class="label-chute">Digite seu chute:</label>
+        <input type="number" id="chute" onfocus="this.value=''" placeholder="digite seu chute aqui">
+        <button type="button" class="botao" id="btn-chute">Verificar</button>
+    </div>
+
+    <div class="chances"></div>
+    
+    <div class="resultado">
+        <button type="button" class="botao" id="reiniciar" onClick="window.location.reload()">Reiniciar</button>
+    </div>
+    
+    <script src="main.js"></script>
+  
+</body>
+</html>

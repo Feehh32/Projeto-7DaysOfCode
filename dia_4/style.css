@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    background: url("fundo.jpg");
+    color: #eb0e75;
+}
+
+.titulo {
+    display: inline-block;
+    margin: 30px 0 0 30px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin:100px 300px 150px 300px;
+    padding:45px;
+    background: linear-gradient(236.85deg, #2b49f5aa 27.26%, #b7cae27e 96.03%);
+    border-radius: 5px;
+    border:#eb0e75a4 5px solid;
+}
+
+.texto-principal {
+    padding-bottom: 25px;
+}
+
+.botao {
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color:#eb0e75;
+    background: #2b49f521;
+    border: 2px solid #5567ceaa;
+    transition:400ms;
+    text-align: center;
+   
+}
+
+.botao:hover {
+    cursor: pointer;
+    background:#5567ce;
+    transform:scale(1.1);
+
+}
+
+.caixa-de-chute{
+    display: none;
+    flex-direction: column;
+    margin:100px 300px 150px 300px;
+    padding:45px;
+    background: linear-gradient(236.85deg, #2b49f5aa 27.26%, #b7cae27e 96.03%);
+    border-radius: 5px;
+    border:#eb0e75a4 5px solid;
+}
+
+.label-chute {
+    margin-bottom: 10px;
+}
+
+#chute {
+    margin-bottom: 10px;
+    color: #eb0e75;
+    background:#34041b;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 1px solid #5567ce;
+}
+
+.chances {
+    display: none;
+    flex-direction: column;
+    margin:100px 300px 150px 300px;
+    padding:45px;
+    background: linear-gradient(236.85deg, #2b49f5aa 27.26%, #b7cae27e 96.03%);
+    border-radius: 5px;
+    border:#eb0e75a4 5px solid;
+}
+
+.texto {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.resultado{
+    display: none;
+    flex-direction: column;
+    margin:100px 300px 150px 300px;
+    padding:45px;
+    background: linear-gradient(236.85deg, #2b49f5aa 27.26%, #b7cae27e 96.03%);
+    border-radius: 5px;
+    border:#eb0e75a4 5px solid;
+}
