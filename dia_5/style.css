@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    background: url("https://cdn.shopify.com/s/files/1/0010/1561/1510/products/Papel-de-Parede-Frutas-Legumes-e-coisinhas-medidas.jpg?v=1658224617");
+
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    text-align: center;
+    margin:25px 0 15px 0;
+}
+
+.caixa {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 400px 0 400px;
+    background: #ebdab3;
+    padding:45px;
+    border:#946a09 ridge  7px;
+    border-radius: 40px;
+}
+
+#exibir{
+    display:none;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+}
+
+p {
+ padding-top:10px;
+}
+
+.texto {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color:#405bef;
+}
+
+
+
+
+.botao {
+    flex-direction: row;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:#fbf6f8;
+    background: #405bef;
+    padding: 5px 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;   
+    font-weight: bold;
+    margin-top: 10px;  
+}
+
+.botao:hover {
+    cursor:pointer;
+}
+
