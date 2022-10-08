@@ -24,7 +24,8 @@ Um jogo onde o programa cria um  número aleatório e oferece ao usuário três 
 
 5° Projeto/listas com array:
 
-Projeto de uma lista de comprar onde se é capaz de adicionar itens a um lista e guarda-los em um array. Há também a possibilida de guarda-los e exibi-los em categorias pré-definidas. (Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_5)).
+Projeto de uma lista de comprar onde se é capaz de adicionar itens a um lista e guarda-los em um array. Há também a possibilida de guarda-los e exibi-los em categorias pré-definidas. (Arquivos do projeto [aqui](https://github.com/Feehh32/Projeto-7DaysOfCode/tree/main/dia_5_6)).
+O sexto projeto visava adicionar um meio de excluir os arquivos que foram adicionados na lista de compras.
 
 <h3>✔️ Tecnologias utilizadas:</h3>
 
