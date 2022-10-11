@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+    background: linear-gradient(600.85deg, #d4e7e7 27.26%, #88c8d8 96.03%);
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(222, 140, 31);
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+    text-shadow: 5px 5px 7px #0e0c06;
+}
+
+.container {
+    position: absolute;
+    background: #000709d6;
+    padding: 15px;
+    border-radius: 15px;
+    border:5px inset #3a3939f9;
+    box-shadow: 6px 6px 7px #1e1e1d;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.number {
+    margin-top: 10px;
+}
+
+#operacao {
+    display: flex;
+    padding: 15px 5px;
+    background: #f8fafa;
+    border:5px inset #6b6b6b;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size:18px;
+    letter-spacing: 0.1em;
+    outline: 0;
+    flex-direction: row-reverse;
+} 
+
+.botao {
+    width: 50px;
+    height: 50px;
+   border-radius: 5px;
+   box-shadow: 0px 3px 0 #8e7004;
+   outline: 0;
+   border: none;
+   background:#d9ac0b ;
+   font-size: 25px;
+   color:#FFFFFF;
+   margin: 3px;
+}
+
+.botao:hover {
+    cursor:pointer;
+}
+
+.botao_igual {
+    height: 100px;
+    background:#3edd0e ;
+    box-shadow: 0px 3px 0 #2a9909;
+}
+
+.botao_zero {
+    width: 106px;
+}
+
+.botao_soma, .botao_sub, 
+.botao_multi, .botao_div {
+    background: #1e43db;
+    box-shadow: 0px 3px 0 #0e2b9e;
+   
+}
+
+.botao_bksp {
+    background: #d52a2a;
+    box-shadow: 0px 3px 0 #a31515;
+}
+
+
