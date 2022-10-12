@@ -2,7 +2,7 @@
 
 ![banner](https://user-images.githubusercontent.com/109393388/193649719-cc622502-7e3f-4c28-a5c1-c5f0cd060c04.jpg)
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/status-Em%20desenvolvimento-orange) ![Badge de seguidores](https://img.shields.io/github/followers/Feehh32)	![Badge de estrelas do repo](https://img.shields.io/github/stars/Feehh32/Projeto-7DaysOfCode) ![Badge da data do último commit](https://img.shields.io/github/last-commit/Feehh32/Projeto-7DaysOfCode)
+![Badge Completo](https://img.shields.io/badge/status-Completo-green) ![Badge de seguidores](https://img.shields.io/github/followers/Feehh32)	![Badge de estrelas do repo](https://img.shields.io/github/stars/Feehh32/Projeto-7DaysOfCode) ![Badge da data do último commit](https://img.shields.io/github/last-commit/Feehh32/Projeto-7DaysOfCode)
 
  <h3>repositórios dos projetos feito no 7 days of code dos cursos da Alura</h3>
  
